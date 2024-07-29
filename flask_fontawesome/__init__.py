@@ -10,8 +10,8 @@ This moudle provides helpers to quickly add FontAwesome resources to your Flask 
 
 from flask import Flask, Blueprint, url_for, Markup, current_app
 
-FONTAWESOME_VERSION = '5.14.0'
-__version__ = '0.1.5'
+FONTAWESOME_VERSION = '6.6.0'
+__version__ = '0.1.6'
 
 
 def fontawesome_html() -> Markup:
@@ -118,22 +118,22 @@ class UseFontAwesomeComCdn(Cdn):
 
     __INTEGRITY_MAP = {
         'webfont/css': {
-            'all': 'sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc',
-            'brands': 'sha384-MiOGyNsVTeSVUjE9q/52dpdZjrr7yQAjVRUs23Bir5NhrTq0YA0rny4u/qe4dxNj',
+            'all': 'sha384-h/hnnw1Bi4nbpD6kE7nYfCXzovi622sY5WBxww8ARKwpdLj5kUWjRuyiXaD1U2JT',
+            'brands': 'sha384-kONVjBbDa5e18xBGGoLguGqAr2FtXB+dqTdiDLZVkKogOJnS12iAheJLVYIa5J8h',
             'fontawesome': (
-                'sha384-PRy/NDAXVTUcXlWA3voA+JO/UMtzWgsYuwMxjuu6DfFPgzJpciUiPwgsvp48fl3p'),
-            'regular': 'sha384-e46AbGhCSICtPh8xpc35ZioOrHg2PGsH1Bpy/vyr9AhEMVhttzxc+2GSMSP+Y60P',
-            'solid': 'sha384-TN9eFVoW87zV3Q7PfVXNZFuCwsmMwkuOTOUsyESfMS9uwDTf7yrxXH78rsXT3xf0',
-            'v4-shims': 'sha384-9aKO2QU3KETrRCCXFbhLK16iRd15nC+OYEmpVb54jY8/CEXz/GVRsnM73wcbYw+m',
+                'sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy'),
+            'regular': 'sha384-PLNAinc+pk6pWS1N3h3B/AncazdeYQGFQj2vtyzzbi4n8nkoy/fki9txBWVQ8/zs',
+            'solid': 'sha384-JN5YK8e9Be0IBEB/Z3BYAzxlDbH7hFQbYtlnB60vKU7JE8v86SmeuD4031oI7nAy',
+            'v4-shims': 'sha384-Heamg4F/EELwbmnBJapxaWTkcdX/DCrJpYgSshI5BkI7xghn3RvDcpG+1xUJt/7K',
         },
         'svg/js': {
-            'all': 'sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c',
-            'brands': 'sha384-V7gsTxvUZaeC6NAsCa24o3WvPOXwSsUM8/SBgy+fxlzWL3xEGXHsAv2E3UO5zKcZ',
+            'all': 'sha384-dgEl3vRKux81M373f/TdgoDTV5oZj+yjHrr/1qR5b4btG5q63kYS62t5kod+7Q6v',
+            'brands': 'sha384-WGmCmFVcmbr3qbRF50iEqdK5BUZs0j60avmXTYWoEtkzl1+TKc1twYLrChw4qWv+',
             'fontawesome': (
-                'sha384-DNo9bmYZCHLtp0n0l0XA2UsoRHX1nx38aRP+p9yoP5A8kVTfeWG3aySMOq5FD/v3'),
-            'regular': 'sha384-zHXcIX0meH+eFgqCa9QdLtYfc+0p7KcF4fVB+gMVFjV6rzYv+LxSIuF5i2eGVDlt',
-            'solid': 'sha384-4RG3cEPIlCBy6VNzxM9ZoEwZW+65ed5JDOfaJAnQqwV6ha/jZDJTXjFmvjFM4bk4',
-            'v4-shims': 'sha384-g+ezV6Pq6549QkJkkz2wmW/wpazNaliTdSg/HX4bKsQ7S8cfyMOiyAfzfWPtlVR9',
+                'sha384-v45///5Qcli6mecEr/gdSpzEluOAFIqluhZ4F6LZ30s23Dv9EU76fyJvTC/A3ncA'),
+            'regular': 'sha384-Gk2RYSJ/TjgKQv6ccayyf1dccurihJUVtv6e8Lfv3g8/cZNFedp/SHUWal78Kri+',
+            'solid': 'sha384-NRBi/Kq1lDLpYNcj2E06xTq03Y6jqNGv3DGELNisBlWBSIUilmB4WYdPzMLK/ToO',
+            'v4-shims': 'sha384-M9y++reQwf5nddw5loUHChCbGE4kwaeHzeEM2yWidMfaRMQeHM6MSwwPuiSnSMHF',
         },
     }
 
