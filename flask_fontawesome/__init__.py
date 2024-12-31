@@ -12,7 +12,7 @@ from flask import Flask, Blueprint, url_for, current_app
 from markupsafe import Markup
 
 FONTAWESOME_VERSION = '6.6.0'
-__version__ = '0.1.6'
+__version__ = '0.1.7'
 
 
 def fontawesome_html() -> Markup:
